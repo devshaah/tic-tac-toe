@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 55px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    width: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    padding: 0px 20px;
+}
+
+ul {
+    height: 55px;
+    display: flex;
+   align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 23px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* used hover animation */
+a:hover{
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: calc(100vh - 55px - 12vh);
+}
+
+.search{
+    display: flex;
+   align-items: center; /*vericallly center krne ke liye */
+}
+.search input{
+    width: 450px;
+    height: 23px;
+    border-radius: 5px;
+    padding: 0px 12px;
+}
+.searchbutton button img{
+    height: 17px;
+ position: relative;
+}
+.searchbutton button {
+    position: relative;
+    top: 15px;
+    right: 31px;
+    cursor: pointer;
+  
+}
+
+.slider img{
+  width: 80vw;
+height: 600px;
+  margin: 20px 50px 0px 100px;
+  
+}
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.card{
+    background-color: azure;
+    border: 1.2mm solid black;
+    margin: 20px 50px 20px 100px ;
+}
+.card h2{
+    text-align: center;
+    margin: 10px;
+}
+.lines{
+    display: inline-block
+}
+.card img{
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+.cards{
+    text-align: center;
+    border: 2mm solid rgb(110, 110, 8);
+}
+.carditem{
+    text-align: center;
+    padding: 0px 3rem ;
+} 
